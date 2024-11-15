@@ -19,7 +19,7 @@
         <header>
             <nav class="header-container">
                 <div class="logo">
-                    <img src="/FORMATION_OCR/booki-starter-code/images/logo/Booki.png" alt="le logo booki">
+                    <img src="/FORMATION_OCR/Booki/Booki-php/images/logo/Booki.png" alt="le logo booki">
                 </div>
                 <div class="header-links">
                     <a href="#hebergements-id">Hébergements</a>
@@ -87,7 +87,7 @@
                     </div>
                     <div class="hebergements-container">
                         <?php foreach ($hebergements as $hebergement) { ?>
-                            <div class="hebergements-cards">
+                            <div class="hebergement-card">
                                 <a href="hebergements.php?id=<?= htmlspecialchars($hebergement['id']); ?>">
                                     <article class="card">
                                         <!-- utilisation de la fonction htmlspecialchars pour éviter les failles xss  -->
