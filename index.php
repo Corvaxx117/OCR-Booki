@@ -204,7 +204,7 @@
             </section>
         </main>
         <footer>
-            <div class="card footer-container">
+            <div class="footer-container">
                 <div class="footer-links">
                     <h2>A Propos</h2>
                     <ul>
